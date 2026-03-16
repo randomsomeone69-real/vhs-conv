@@ -1,4 +1,8 @@
-﻿using Microsoft.VisualBasic;
+﻿/* Rôle : convertit un nombre de minutes finies en heures : minutes.
+H : heure, M : minutes
+conv_TRT : convert Total Running Time, yes. */
+
+using Microsoft.VisualBasic;
 
 (int, int) conv_trt(int Min)
 {
