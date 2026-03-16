@@ -8,5 +8,8 @@
     return (H,M);
 }
 
-(int H, int M) = conv_trt(90);
+int valueVHS;
+Console.WriteLine("Please indicate the value of minutes indicated on your VHS tape.");
+valueVHS = Convert.ToInt16(Console.ReadLine()); //32 bits est inutile puisque les valeurs des cassettes ne sont jamais longues.
+(int H, int M) = conv_trt(valueVHS);
 Console.WriteLine($"The tape lasts {H}:{M:D2} of contiguous time.");
